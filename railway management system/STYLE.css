@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-image:url(../img/country.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    
+}
+.menu{
+    font-weight: bolder;
+    font-family:sans-serif;
+    height: 100px;
+}
+ul{
+    padding-top: 55px;
+    text-align: center;
+}
+ul li{ 
+    font-size: larger;
+    text-decoration:none;
+   display: inline;
+}   
+ul li a{
+    color:rgb(132, 18, 198);
+    text-decoration: none;
+    padding:15px;
+    border:5px transparent white;
+    border-radius:0px;
+    font-family:arial;
+}
+a:hover{
+    color:#fc036b;
+    background-color:rgb(255, 255, 255);
+    border-radius: 75px;
+    transition: 0.2s ; 
+    border:4px solid rgb(220, 20, 120);
+    transform: scaleY(10px);
+    font-weight:bold;
+}
+.active{
+    border-radius: 75px;
+    padding: 15px 20px;
+    background-color: rgb(254, 254, 254);
+    border:4px solid rgb(220, 20, 120);
+}
+.ho:hover{
+    transform: translateX(6px);
+    color: rgb(220, 20, 110);
+    transition: 0.9s;
+    text-shadow: 3px 3px rgb(255, 253, 253);
+    cursor: pointer;
+    
+   
+}
+.ho{ 
+    margin-top: 20%;
+    text-align: center;
+    font-family: ARIAL;
+    font-weight: bolder;
+    font-size:50px;
+    text-shadow: 4px;
+    color:rgb(255, 255, 255);
+
+}
+
+.about{
+    text-align: center;
+    font-size:20px ;
+}
+.us{
+    text-align: center;
+    font-size: 35px;
+}
+.ho:hover{
+
+    transform:translatey(-15px);
+    font-size: 50px;
+    transition: 2s;
+  
+    font-family:Arial;
+}
+section{
+    width:80%;
+    margin:80px auto;
+}
+.title{
+   
+    text-align: center;
+    font-size: 4vmin;
+    color:#fc036b;
+    font-family:brush script mt,cursive;
+    font-weight: 100;
+    font-size: 35px;
+}
+.title:hover{
+    text-shadow: 3px 3px black;
+    transition: 0.7s;
+    cursor: pointer;
+
+    font-size: 39px;
+}
+.line{
+    width:150px;
+    height: 4px;
+    background: #fc036b;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content:space-between;
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;    
+}
+
+
+.tour .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 30px;
+    color:#fc036b;
+    margin:20px auto;
+    font-family: brush script mt,cursive ;
+}
+p{
+    color:rgb(158, 169, 169);
+    padding:0px 40px;
+    text-align: center;
+    font-weight:500;
+}
+.tour .ctn{
+    margin-top: 10px;
+    font-size: 15px;
+    text-decoration:none;
+    background-color: rgb(255, 255, 255);
+    border:3px solid #fc036b;
+    border-radius: 35px;
+    padding: 5px;
+}
+.ctn:hover{
+    background-color:black;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.hi:hover{
+    height:270px;
+    width:320px;
+    transition:0.7s;
+    box-shadow: 7px 7px;
+    cursor: pointer;
+}
+.footer{
+    width: 1359px;
+    height: 100px;
+    padding: 20px 80px;
+    margin:0;
+    background-color: #fc036f;
+    text-align: center;
+}
+.footer p{
+    color: black;
+    margin: 20px auto;
+    padding: 20px auto;
+    font-size: 18px;
+}
+.footer p:hover{
+    cursor:pointer;
+}
+.explore{
+    background-image: url(../img/tiger.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:70vh;
+    background-color: black;
+    align-items: center;
+    margin: 0;
+
+}
+.exp-cont{
+    width:60%;
+    padding:50px;
+    color:#fc036b;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.exp-cont h1{
+    font-size: 7vmin;
+    margin:20px;
+
+}
+.exp-cont p{
+    color:#fc036b;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+.exp-cont.ctn{
+    margin-top:40px
+
+}
+.line{
+    width:150px;
+    height:4px;
+    background:#fc036b;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 2px;
+}
+.btn{
+
+        margin-top: 15px;
+        font-size: 15px;
+        text-decoration:none;
+        background-color: rgb(0, 0, 0);
+        border:3px solid #fc036b;
+        border-radius: 35px;
+        padding: 5px;
+        color: #fc036b;
+}
+.btn:hover{
+    background-color:black;
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+.hey{
+    display: inline;
+}

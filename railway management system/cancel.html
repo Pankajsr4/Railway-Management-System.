@@ -1,0 +1,79 @@
+<html>
+<title>
+
+</title>
+<head>
+<style>
+body {
+background-image: url(../img/train.jpg);
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+p.dashed{border-style:solid;color:black;
+border-radius:4px;
+padding:25px 50px 30px 50px;
+width:170px;
+background-color:powderblue;
+}
+.nav{
+        font-weight: bolder;
+        margin-top: 50px;
+        margin-left: 20px;
+        font-family:'Franklin Gothic Medium';
+        }
+ul li{ 
+   
+   font-size: larger;
+   text-decoration: none;
+   margin-left:5px;
+   display: inline;
+}   
+ul li a{
+   color:rgb(119, 0, 255);
+   text-decoration: none;
+   padding:5px 20px;
+   margin-left: 80px;
+   border:5px transparent white;
+}
+center{
+    font-family: arial;
+    font-weight: bolder;
+
+    color: rgb(127, 0, 246);
+}
+</style>
+</head>
+<body>
+<center>CANCELLATION PORTAL</center>
+<br>
+<right><form action="action_page.php" method="get">
+
+<div  class="nav">
+
+    <ul>
+           
+        <li><a href="Rail.html">HOME</a></li>
+        <li><a class="active" href="book.html">BOOK TICKET</a></li>
+        <li><a href="catering.html">CATERING SERVICE</a></li>
+        <li><a href="cancel.html">CANCEL TICKET</a></li>
+        <li><a href="feedback.html" target="_blank">FEEDBACK</a></li>
+    </ul>
+</div>
+<hr>
+</form></right>
+<center><form action="action_page.php" method="get"><p class="dashed">
+<br><label for ="fname">Train Number:</label> <input type="text" id="fname" name="fname"><br>
+<br><label for ="fname">Name:</label> <input type="text" id="fname" name="fname"><br>
+<br><label for ="fname">Age:</label> <input type="text" id="fname" name="fname"><br>
+<br><label for ="fname">e-mail:</label> <input type="text" id="fname" name="fname"><br>
+<br><label for ="fname">Reason:</label> <input type="text" id="fname" name="fname"><br>
+<br><button type="button" onclick="alert('THANK YOU ')" > CLICK HERE</button><br>
+</p>
+</form></center>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reservation</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        body{
+            background-image:url(../img/railway2.jpg);
+        }
+        ul li{ 
+   
+            font-size: larger;
+            text-decoration: none;
+            margin-left:5px;
+            display: inline;
+        }   
+        ul li a{
+            color:aqua;
+            text-decoration: none;
+            padding:5px 20px;
+            margin-left: 10px;
+            border:5px transparent white;
+        }
+        a:hover{
+            color:aqua;
+            background-color:rgb(255, 255, 255);
+            transition: 0.6s ; 
+            padding:5px 20px;
+ 
+        }
+        .active{
+            background-color: rgb(255, 255, 255);
+            padding:5px 20px;
+
+        }
+        .nav{
+        font-weight: bolder;
+        margin-top: 50px;
+        margin-left: 330px;
+        font-family:'Franklin Gothic Medium';
+        }
+        .main{
+            background-color:rgba(124, 205, 224,0.5);
+            border:4px solid white;
+            border-radius: 15px;
+            color:azure;
+            padding:30px;
+            margin:70px 35% 50px 40%;
+            font-size: larger;
+            font-family:monospace;
+            
+        }
+        p.sub{
+            text-align: center;
+            padding-top: 20px;
+
+        }
+        p.fs{
+            text-align: center;
+        }
+        .pay{
+            background-color:rgba(124, 205, 224,0.5);
+            border:4px solid white;
+            border-radius: 15px;
+            color:azure;
+            padding:20px;
+            margin:10px 35% 50px 40%;
+            font-size: larger;
+            font-family:monospace;
+            
+        }
+        marquee{
+            color: antiquewhite;
+            margin-top: 30px;
+            font-weight: bolder;
+            font-family: cursive;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div  class="nav">
+
+        <ul>
+               
+            <li><a href="Rail.html">HOME</a></li>
+            <li><a class="active" href="#">BOOK TICKET</a></li>
+            <li><a href="catering.html">CATERING SERVICE</a></li>
+            <li><a href="cancel.html">CANCEL TICKET</a></li>
+            <li><a href="feedback.html" target="_blank">FEEDBACK</a></li>
+        </ul>
+    </div>
+    <marquee  direction="right">
+        ~~WELCOME TO BOOKING PORTAL~~
+        </marquee>
+    <div class="main">
+        <form>
+            <label>DATE</label><br>
+            <input type="date" required><br><br>
+            <label>Train Number</label><br>
+            <input type="text" required><br><br>
+            <label>Destination</label><br>
+            <input type="text" required><br><br>
+            <label>Contact No.</label><br>
+            <input type="text" required><br><br>
+            <fieldset>
+                <legend>Gender</legend>
+                <p class="fs">
+                    Male <input type="radio" name="Type" id="MW" required>
+                    Female <input type="radio" name="Type" id="DW" required>
+                    others <input type="radio" name="Type" id="PW" required>
+                </p>
+            </fieldset>
+            <p class="sub"><input type="submit"></p>
+        </form>
+    </div>
+        <div class="pay">
+        <form>
+            <p>
+                Fair Amount:Rs 2500/- 
+                <button type="button" onclick="alert('Thank For Booking!')">PAY</button>
+            </p>
+
+        </form>
+    </div>
+        
+    
+    
+</body>
+</html>
